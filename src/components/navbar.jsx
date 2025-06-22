@@ -15,7 +15,7 @@ const Navbar = () => {
         });
 
         navTween.fromTo('nav', {
-            backgroundColor: 'trasnparent',
+            backgroundColor: 'transparent',
         }, {backgroundColor: '#00000050',
             backgroundFilter:'blur(20px)',
             duration:1,
@@ -28,7 +28,7 @@ const Navbar = () => {
             <div>
                 <a href="#home" className="flex items-center gap-2">
                     <img src='images/logo.png' alt='logo'/>
-                    <p>Velvet Pour</p>
+                    <p>Mojito Hub</p>
                 </a>
                 <ul>
                     {navLinks.map((item) => (
